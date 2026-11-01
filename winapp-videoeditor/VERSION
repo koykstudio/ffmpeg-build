@@ -1,0 +1,13 @@
+# Pinned sources for tools/ffmpeg/build.sh (LGPL-only FFmpeg for Windows x64 + ARM64).
+# Format: name|version|file|url|sha256   (build.sh reads this file; change a pin here, nowhere else)
+llvm-mingw|20261020 (ucrt, macOS universal host)|llvm-mingw-20261020-ucrt-macos-universal.tar.xz|https://github.com/mstorsjo/llvm-mingw/releases/download/20261020/llvm-mingw-20261020-ucrt-macos-universal.tar.xz|e9c13e4ede38e715003ffc674d4d00a1088df8235439d1f0c16188ff0704c17e
+ffmpeg|9.0.2 (git tag n9.0.2)|ffmpeg-9.0.2.tar.xz|https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz|8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e
+zlib|1.3.2|zlib-1.3.2.tar.gz|https://github.com/madler/zlib/releases/download/v1.3.2/zlib-1.3.2.tar.gz|bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16
+dav1d|1.5.4|dav1d-1.5.4.tar.xz|https://downloads.videolan.org/pub/videolan/dav1d/1.5.4/dav1d-1.5.4.tar.xz|686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5
+svt-av1|4.2.0 (git tag v4.2.0)|SVT-AV1-v4.2.0.tar.gz|https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v4.2.0/SVT-AV1-v4.2.0.tar.gz|c7b13c4a84bd3751aa35fcc72be13e6875467e7c2216879251a486e5b1e4e740
+libvpx|1.17.0 (git tag v1.17.0)|libvpx-1.17.0.tar.gz|https://github.com/webmproject/libvpx/archive/refs/tags/v1.17.0.tar.gz|1020f184046187baa2985dbde38e0691f49c44088bca7a1842b0236c6081dc0a
+opus|1.6.1|opus-1.6.1.tar.gz|https://downloads.xiph.org/releases/opus/opus-1.6.1.tar.gz|6ffcb593207be92584df15b32466ed64bbec99109f007c82205f0194572411a1
+lame|3.100|lame-3.100.tar.gz|https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz|ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e
+libwebp|1.6.0|libwebp-1.6.0.tar.gz|https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz|e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564
+nv-codec-headers|12.1.14.1 (NVENC API 12.1, NVIDIA driver >= 531)|nv-codec-headers-12.1.14.1.tar.gz|https://github.com/FFmpeg/nv-codec-headers/releases/download/n12.1.14.1/nv-codec-headers-12.1.14.1.tar.gz|043e46265517855f13bcb98b3a225b2761b2a83983b1645fa1d05876f1c3a781
+amf-headers|1.5.3|AMF-headers-v1.5.3.tar.gz|https://github.com/GPUOpen-LibrariesAndSDKs/AMF/releases/download/v1.5.3/AMF-headers-v1.5.3.tar.gz|0f521ad98041f8001147cded4a660127f18b1c27a801a5cd691bda1fa48381be
